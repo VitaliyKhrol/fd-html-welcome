@@ -1,10 +1,17 @@
 h2 {
     font-size: 30px;
     background-color: aqua;
+    text-align: center;
 }
 
 p {
     color:red;
     font-size: 20px;
-    line-height: 2.5em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+a{
+    text-decoration: dashed;
 }
