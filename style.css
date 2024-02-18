@@ -2,12 +2,18 @@
 div {
     background-color: blueviolet;
     border: 1px solid red;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
 }
 
 .important-text {
     color: red;
+    width: 200px;
     padding: 20px;
     margin: 10px;
+    display: block;
    
 }
 
