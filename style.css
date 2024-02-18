@@ -1,22 +1,12 @@
 body{
     margin: 0;
 }
-.content{
-    background-color: blueviolet;
-    border: 1px solid red;
-    width: 100px;
-    height: 100px;
-    box-sizing: border-box;
-}
 
-.one{
-margin: 40px;
-}
 
-.two{
-    margin: 60px;
-}
-
-.three{
-
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 10%;
 }
