@@ -1,9 +1,16 @@
-.wrapper{
-    width: 300px;
-    height: 300px;
-    border:2px solid black;
-    overflow: scroll;
-}
-.inner{
-    border: 2px solid red;
+button{
+    background-color: aqua;
+    color: blueviolet;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 50px;
+    max-height: 100px;
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
 }
