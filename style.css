@@ -4,9 +4,19 @@ body{
 .content{
     background-color: blueviolet;
     border: 1px solid red;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     box-sizing: border-box;
-    margin: 0 auto;
 }
 
+.one{
+margin: 40px;
+}
+
+.two{
+    margin: 60px;
+}
+
+.three{
+
+}
