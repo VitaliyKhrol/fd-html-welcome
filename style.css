@@ -1,9 +1,9 @@
-body {
-   
-    background-image: url(./images/1686736061_kartin-papik-pro-p-kartinki-krasivie-na-avatarku-priroda-zima-62.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    color: azure;
+.wrapper{
+    width: 300px;
+    height: 300px;
+    border:2px solid black;
+    overflow: scroll;
 }
-
+.inner{
+    border: 2px solid red;
+}
