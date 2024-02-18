@@ -1,16 +1,11 @@
-button{
-    background-color: aqua;
-    color: blueviolet;
-    border: 1px solid black;
-    border-radius: 8px;
-    padding: 5px;
-    min-width: 50px;
-    max-width: 100px;
-    min-height: 50px;
-    max-height: 100px;
-    
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+body {
+    margin: 0;
+}
 
+.item{
+    box-sizing: border-box;
+    border: 2px solid red;
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
 }
