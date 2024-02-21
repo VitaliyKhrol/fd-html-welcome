@@ -1,29 +1,9 @@
-.block {
-    width: 200px;
-    height: 200px;
-    display: inline-block;
-    border: 2px solid red;
-    text-align: center;
-    color: white;
-    font-size: 50px;
-    background-color: blueviolet;
+ul{
+    list-style-type: circle;
 }
 
-.one{
-    display: none;
-
-}
-
-.two{
-    opacity: 0.5;
-
-}
-
-.three{
-    visibility: hidden;
-
-}
-
-.four{
+ol{
+    list-style-type:disc;
+    list-style-image: url(./images/restart_alt_FILL0_wght400_GRAD0_opsz24.png);
 
 }
