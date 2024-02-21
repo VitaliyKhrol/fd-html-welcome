@@ -1,9 +1,14 @@
-ul{
-    list-style-type: circle;
+table {
+    border-collapse: collapse;
+}thead {
+    background-color: aquamarine;
 }
 
-ol{
-    list-style-type:disc;
-    list-style-image: url(./images/restart_alt_FILL0_wght400_GRAD0_opsz24.png);
+tfoot {
+    background-color: bisque;
+}
 
+td {
+    border: 1px solid black;
+    padding: 8px;
 }
