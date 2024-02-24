@@ -9,3 +9,7 @@ article>p{
 h2~p{
     color: green;
 }
+
+h2+p {
+    color: blueviolet;
+}
