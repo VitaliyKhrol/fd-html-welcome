@@ -5,3 +5,7 @@ article p{
 article>p{
     color: blue;
 }
+
+h2~p{
+    color: green;
+}
