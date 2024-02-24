@@ -1,14 +1,81 @@
-table {
-    border-collapse: collapse;
-}thead {
-    background-color: aquamarine;
+body {
+    --photo-size:120px;
 }
 
-tfoot {
-    background-color: bisque;
+
+.main-section {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: darkslategrey;
+    padding: 15%;
 }
 
-td {
-    border: 1px solid black;
-    padding: 8px;
+.card-wrapper {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+.header {
+    width: 100%;
+    height: 35%;
+    background-image: url(./images/field.jpg);
+}
+
+.card-content {}
+
+.user-images {
+    width: var(--photo-size);
+    height: var(--photo-size);
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    margin-top: calc((var(--photo-size)/2)* (-1));
+    border:2px solid red;
+}
+
+.user-name {
+    text-align: center;
+    margin: 5% 0px;
+    font-size: 30px;
+}
+
+.user-position {
+    text-align: center;
+    margin: 3% 0px;
+    font-size: 15px;
+}
+
+.user-button{
+   font-size: 18px;
+   padding: 5px 20px;
+   border-radius: 20px;
+   border: 2px solid blue;
+   color: blue;
+   background-color: aqua;
+   display: block;
+   margin: 4% auto;
+}
+
+.stats-wrpapper {
+    margin-top: 8%;
+    width: 100%;
+
+}
+
+.user-stats {
+    display: inline-block;
+    width: 32%;
+}
+
+.stats-header {
+    text-align: center;
+}
+
+.stats-type {
+    text-align: center;
 }
