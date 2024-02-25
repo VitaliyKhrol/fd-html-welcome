@@ -1,35 +1,12 @@
-.navigation{
-
+li:first-child{
+    color: green;
 }
 
-.link-list{
-
-}
-
-.link-list li{
-    margin-top: 20px;
-    display: inline-block;
-}
-.page-link{
-    
-    text-decoration: none;
-    background-color: rgb(255, 242, 0);
-    padding: 20px;
-
-}
-
-.page-link:hover{
-    background-color: bisque;
-}
-
-.page-link:active{
+li:last-child{
     color: red;
 }
 
-.page-link:not(a):active{
-    color: blueviolet;
-}
-
-:focus{
-    background-color: brown;
+li:nth-child(3){
+    color: #8a2be2;
+    font-size: 20px;
 }
