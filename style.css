@@ -1,18 +1,28 @@
-div{
-    width: 100px;
-    height: 100px;
+table{
+    border-collapse: collapse;
+}
+
+thead td{
+    padding: 8px 50px;
     background-color: blue;
-    border: 1px solid blue;
-    display: inline-block;
+    color: white;
 }
 
-div:nth-child(odd){
-    background-color: red;
+tbody tr:nth-child(odd) td:first-child{
+    background-color: aqua;
+    color: white;
 }
 
-div:nth-child(even){
-    background-color: green;
+tbody tr:nth-child(odd) :not(:first-child){
+    background-color: rgb(222, 237, 237);
+    color:rgb(79, 78, 80)
 }
-div:nth-child(3n){
-    background-color:blue
+
+tbody tr:nth-child(even) td:first-child{
+    background-color: rgb(0, 255, 68);
+}
+
+tbody tr:nth-child(even) :not(:first-child){
+    background-color: rgb(54, 55, 55);
+    color:rgb(79, 78, 80);
 }
