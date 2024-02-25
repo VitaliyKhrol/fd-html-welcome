@@ -1,12 +1,18 @@
-li:first-child{
-    color: green;
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 1px solid blue;
+    display: inline-block;
 }
 
-li:last-child{
-    color: red;
+div:nth-child(odd){
+    background-color: red;
 }
 
-li:nth-child(2n){
-    color: #8a2be2;
-    font-size: 20px;
+div:nth-child(even){
+    background-color: green;
+}
+div:nth-child(3n){
+    background-color:blue
 }
