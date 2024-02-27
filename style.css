@@ -1,28 +1,47 @@
-table{
-    border-collapse: collapse;
+*{
+    box-sizing: border-box;
 }
 
-thead td{
-    padding: 8px 50px;
-    background-color: blue;
+body{
+    margin: 0;
+}
+
+.conteiner{
+    background-color: yellowgreen;
+    height: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper{
+    background-color: dodgerblue;
+    height: 800px;
+    width: 80%;
+}
+
+.inner{
+    background-color: brown;
+    border:1px solid black;
     color: white;
+    text-align: center;
+    height: 80px;
+    width: 80px;
 }
 
-tbody tr:nth-child(odd) td:first-child{
-    background-color: aqua;
-    color: white;
+.one{
+    position: relative;
+    top:15px;
+    left: 15px;
+
 }
 
-tbody tr:nth-child(odd) :not(:first-child){
-    background-color: rgb(222, 237, 237);
-    color:rgb(79, 78, 80)
+.two{
+
 }
 
-tbody tr:nth-child(even) td:first-child{
-    background-color: rgb(0, 255, 68);
-}
+.three{
 
-tbody tr:nth-child(even) :not(:first-child){
-    background-color: rgb(54, 55, 55);
-    color:rgb(79, 78, 80);
+}
+.four{
+
 }
