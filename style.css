@@ -2,12 +2,21 @@ h1{
     font-size: 30px;
 }
 
-p::first-letter{
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+p{
+    border: 1px solid black;
 }
 
-::selection{
-    background-color: yellow;
+p::before, p::after{
     color: red;
+    background-color: aqua;
+    display: inline-block;
+
+}
+
+p::after{
+    content: '>>>>>>';
+}
+
+p::before{
+    content: '<<<<<<';
 }
