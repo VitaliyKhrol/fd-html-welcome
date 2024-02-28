@@ -1,22 +1,36 @@
-h1{
+h1 {
     font-size: 30px;
 }
 
-p{
+p {
     border: 1px solid black;
 }
 
-p::before, p::after{
-    color: red;
-    background-color: aqua;
+p::first-line {
+    background-color: red;
+
+}
+
+p::first-letter {
+    font-size: 40px;
+}
+
+.menu>li {
+    display: inline;
+    padding: 20px;
+}
+
+.nav {
+    list-style: none;
+}
+
+
+.nav::before {
     display: inline-block;
-
-}
-
-p::after{
-    content: '>>>>>>';
-}
-
-p::before{
-    content: '<<<<<<';
+    content: '';
+    background-image: url(./images/face_3_FILL0_wght400_GRAD0_opsz24.png);
+    background-size: contain;
+    width: 10px;
+    height: 10px;
+    
 }
