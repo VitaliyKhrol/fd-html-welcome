@@ -25,7 +25,10 @@ header {
 .list-item {
     display: inline-block;
     list-style-type: none;
+    
 }
+
+
 
 .link {
     text-decoration: none;
@@ -33,6 +36,39 @@ header {
     display: inline-block;
     background-color: pink;
     transition: all 800ms ease 50ms;
+    position: relative;
+}
+
+.link::after{
+    display: block;
+    width: 0;
+    height: 0.1em;
+    background-color: black;
+    content: '';
+    position: absolute;
+    top: 75%;
+    left: 0;
+    transition: all 1s ease 50ms;
+}
+
+.link::before{
+    display: block;
+    width: 0;
+    height: 0.1em;
+    background-color: black;
+    content: '';
+    position: absolute;
+    top: 25%;
+    right: 0;
+    transition: all 1s ease 50ms;
+}
+
+.link:hover::after{
+    width: 100%;  
+}
+
+.link:hover::before{
+    width: 100%;
 }
 
 .link:hover{
