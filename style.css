@@ -13,10 +13,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     /* transform: translate(50%, -50%); перемещение*/
+    /* transform:scale(1.5,1.5) збільщує елемент;  */
      transition: transform 1s ease;
 
 }
 
 .box:hover{
-    transform:scale(1.5,1.5) ;   
+    transform:scale(2.5,2.5) ;   
 }
