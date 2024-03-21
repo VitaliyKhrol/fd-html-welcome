@@ -17,9 +17,7 @@
 }
 
 .one{
-    flex-basis: 100px;
-    flex-shrink: 5;
-   
+    flex: 1 0 120px;
 
 }
 .two {
