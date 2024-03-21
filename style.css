@@ -1,9 +1,9 @@
 .container {
     border: 1px solid black;
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row;
     justify-content: flex-start;
-    width: 800px;
+    width: 400px;
 
 }
 
@@ -17,23 +17,24 @@
 }
 
 .one{
-    flex-grow: 1;
+    flex-basis: 100px;
+    flex-shrink: 5;
    
 
 }
 .two {
-    flex-grow: 2;
+    flex-basis: 100px;
 }
 
 .three {
-    flex-grow: 1;
+    flex-basis: 100px;
 
 }
 
 .four {
-    flex-grow: 1;
+    flex-basis: 100px;
 }
 
 .five {
-    flex-grow: 1;
+    flex-basis: 100px;
 }
