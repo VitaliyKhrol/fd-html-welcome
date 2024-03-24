@@ -1,38 +1,37 @@
-.container {
-    border: 1px solid black;
+body{
+    background-color: blanchedalmond;
+}
+
+.card-wrapper{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
     display: flex;
-    flex-flow: row;
-    justify-content: flex-start;
-    width: 400px;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.inner {
-    border: 2px solid red;
-    background-color: blueviolet;
-    color: white;
-    font-size: 2em;
-    text-align: center;
-  
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.one{
-    flex: 1 0 120px;
 
-}
-.two {
-    flex-basis: 100px;
+h2 {
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
-.three {
-    flex-basis: 100px;
-
+p {
+    font-size: 0.8em;
+    color: grey;
 }
 
-.four {
-    flex-basis: 100px;
-}
-
-.five {
-    flex-basis: 100px;
+.row{
+    display: flex;
+    flex-direction: row;
 }
