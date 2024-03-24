@@ -10,15 +10,37 @@
 </head>
 
 <body>
- <form class="sing-in-form flex-column" action="" method="GET">
-    <label for="email">Email or username</label>
-    <input id="email" type="email" placeholder="example@mail.com" name="email" pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+" required>
-    <label class="flex-column"> Password
-       <input type="password" name="password">  
-    </label>
-   
-    <button>Sing In</button>
- </form>
+    <form class="sing-in-form flex-column" action="" method="GET">
+        <label class="flex-column"> Full Name
+            <input type="text" name="name" required />
+        </label>
+        <label for="email">Email or username</label>
+        <input 
+            id="email" 
+            type="email" 
+            placeholder="example@mail.com" 
+            name="email"
+            pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
+            autocomplete="email"
+            required />
+        <label class="flex-column"> Password
+            <input type="password" name="password"/>
+        </label>
+        Gender
+        <label> 
+            <input type="radio" name="gender" required value="male"/> Male
+        </label>
+        <label> 
+            <input type="radio" name="gender" required value="female"/> Female
+        </label>
+        <label> 
+            <input type="radio" name="gender" required value="non-binary"/> Non-binary
+        </label>
+        <label> 
+            <input type="checkbox" name="adult" required /> Are you under 18?
+        </label>
+        <button>Sing In</button>
+    </form>
 
 </body>
 
