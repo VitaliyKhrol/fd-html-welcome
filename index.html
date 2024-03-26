@@ -49,16 +49,17 @@
 
         <fieldset class="flex-column">
             <label class="flex-column"> Where are your from?
-                <select name="city">
-                    <optgroup label="Dnipropetrovsk obl.">
-                        <option>Dnipro</option>
-                        <option>Nikopol</option> 
-                        <option>Kryvyi Rih</option>       
-                    </optgroup>
+                <input type="text" name="city" list="city-list">
+                <datalist id="city-list">
+                    <option>Dnipro</option>
+                    <option>Nikopol</option> 
+                    <option>Kryvyi Rih</option>       
                     <option>Kyiv</option>
                     <option>Kharkov</option>
                     <option>Lviv</option>
-                </select>
+                </datalist>
+
+               
             </label>
         </fieldset>
 
@@ -71,3 +72,14 @@
 
 
 </html>
+<!-- 
+<select name="city">
+    <optgroup label="Dnipropetrovsk obl.">
+        <option>Dnipro</option>
+        <option>Nikopol</option> 
+        <option>Kryvyi Rih</option>       
+    </optgroup>
+    <option>Kyiv</option>
+    <option>Kharkov</option>
+    <option>Lviv</option>
+</select> -->
