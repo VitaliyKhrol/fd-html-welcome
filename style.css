@@ -14,3 +14,28 @@
     display: flex;
     flex-direction: column;
 }
+
+input {
+    background-color: cadetblue;
+    border: none;
+    border-radius: 3px;
+ 
+}
+
+input[type="checkbox"]{
+    appearance: none;
+    width: 15px;
+    height: 15px;
+   background-color: blueviolet;
+}
+
+input[type="checkbox"]:checked {
+    background-color: antiquewhite;
+    border: 2px solid blueviolet;
+}
+
+
+input::placeholder{
+    color: yellow;
+    padding-left: 20px;
+}
