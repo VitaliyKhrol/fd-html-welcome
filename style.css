@@ -1,41 +1,35 @@
-.sing-in-form{
-    width: 200px;
-    border: 1px solid lightgray;
-    background-color: aliceblue;
-    border-radius: 4px;
-    margin: 0 auto;
+h2{
+    font-size: 35px;
+    color: black;
     padding: 10px;
+    font-weight: 600;
+    width: 100%;
 }
 
-.sing-in-form input{
-    margin: 8px 0;
+p{
+color: blue;
+padding: 5px;
 }
-.flex-column{
+
+section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+}
+article{
+    flex-basis: 10%;
+}
+article:first-child{
+    flex-grow: 5;
+
 }
 
-input {
-    background-color: cadetblue;
-    border: none;
-    border-radius: 3px;
- 
-}
-
-input[type="checkbox"]{
-    appearance: none;
-    width: 15px;
-    height: 15px;
-   background-color: blueviolet;
-}
-
-input[type="checkbox"]:checked {
-    background-color: antiquewhite;
-    border: 2px solid blueviolet;
-}
-
-
-input::placeholder{
-    color: yellow;
-    padding-left: 20px;
+@media screen and (max-width:576px){
+    section{
+        flex-direction: column;
+    }
+    article{
+        flex-grow: 1;
+    
+    }
 }
