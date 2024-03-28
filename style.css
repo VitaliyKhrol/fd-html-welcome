@@ -1,44 +1,12 @@
-:root {
-    --sm-size: 576px;
-    --md-size: 768px;
-    --lg-size: 992px;
-    --xl-size: 1200px;
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+@font-face {
+    font-family:'Edu NSW ACT Foundation';
+    src: url(./fonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf) format("truetype");
 }
+
 
 h2 {
-    font-size: 35px;
-    color: black;
-    padding: 10px;
-    font-weight: 600;
-    width: 100%;
-}
-
-p {
-    color: blue;
-    padding: 5px;
-}
-
-
-@media screen and (min-width: 576px) {
-    p {
-        color: green;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    p {
-        color: violet;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    p {
-        color: red;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    p {
-        color: yellowgreen;
-    }
+    font-family: 'Edu NSW ACT Foundation', cursive;
 }
