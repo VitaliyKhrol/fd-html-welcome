@@ -1,4 +1,11 @@
-h2{
+:root {
+    --sm-size: 576px;
+    --md-size: 768px;
+    --lg-size: 992px;
+    --xl-size: 1200px;
+}
+
+h2 {
     font-size: 35px;
     color: black;
     padding: 10px;
@@ -6,30 +13,32 @@ h2{
     width: 100%;
 }
 
-p{
-color: blue;
-padding: 5px;
+p {
+    color: blue;
+    padding: 5px;
 }
 
-section{
-    display: flex;
-    flex-direction: row;
 
-}
-article{
-    flex-basis: 10%;
-}
-article:first-child{
-    flex-grow: 5;
-
-}
-
-@media screen and (max-width:576px){
-    section{
-        flex-direction: column;
+@media screen and (min-width: 576px) {
+    p {
+        color: green;
     }
-    article{
-        flex-grow: 1;
-    
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        color: violet;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    p {
+        color: red;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    p {
+        color: yellowgreen;
     }
 }
