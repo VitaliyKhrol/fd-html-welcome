@@ -6,7 +6,31 @@
     src: url(./fonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf) format("truetype");
 }
 
+:root{
+    font-size: 20px;
+}
+
+article{
+    font-size: 20px;
+}
 
 h2 {
     font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+span{
+    font-size: 1.5rem;
+}
+
+ul{
+    font-size: 0;
+}
+li{
+    display: inline-block;
+    background-color: blue;
+    font-size: 1.5rem;
 }
