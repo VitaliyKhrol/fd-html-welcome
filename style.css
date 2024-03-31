@@ -1,4 +1,18 @@
+.wrapper {
+    height: 80%;
+    border: 1px solid black;
+}
 
-img{
+.hack {
+    border: 1px solid red;
+    padding-top: 80%;
+    position: relative;
+}
+
+img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
 }
