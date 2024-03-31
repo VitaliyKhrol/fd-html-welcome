@@ -1,3 +1,7 @@
+:root {
+    --aspect-ratio: calc(9/16);
+}
+
 .wrapper {
     height: 80%;
     border: 1px solid black;
@@ -5,7 +9,7 @@
 
 .hack {
     border: 1px solid red;
-    padding-top: 80%;
+    padding-top: calc(var(--aspect-ratio)*100%);
     position: relative;
 }
 
@@ -15,4 +19,6 @@ img {
     object-fit: cover;
     object-position: center;
     position: absolute;
+    top: 0;
+
 }
